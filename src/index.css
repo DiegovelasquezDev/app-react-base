@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,400;1,600;1,700&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body,
+#root,
+.app,
+.login,
+.content {
+  height: 100%;
+  width: 100%;
+  font-family: 'Source Sans 3', sans-serif;
+}
+
+.app {
+  display: flex;
+  position: relative;
+}
+
+.white-textfield .MuiOutlinedInput-notchedOutline {
+  border-color: white; /* Cambia el color del borde */
+}
+
+.white-textfield .MuiInputLabel-root {
+  color: white !important; /* Cambia el color del texto del label */
+}
+
+.white-textfield .MuiInputBase-input {
+  color: white; /* Cambia el color del texto de entrada */
+}
+
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #e0e0e0;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
